@@ -1,0 +1,550 @@
+
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+#topbarparent
+{
+    background-color: #c8fadb;
+    display: flex;
+    height: 5rem;
+}
+#topbar
+{
+    margin-top: 0.5rem;
+    display: flex;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+#logoandheading
+{
+    margin-left: 3rem;
+    font-size:3rem;
+    font-weight: 700;
+    display: flex;
+}
+#reallogo
+{
+    height:3rem;
+    width: 3rem;
+}
+#logo
+{
+   margin-right: 0.5rem; 
+   margin-top: 0.7rem;
+}
+#btns
+{
+    display: flex;
+    margin-left: 47rem;
+    margin-top: 1rem;
+}
+#loginbtn
+{
+    width: 5rem;
+    height: 2.7rem;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    color:black;
+    border-color:  grey;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.getstartedbtn
+{
+    width: 7.5rem;
+    height: 2.7rem;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    background-color: #15803d;
+    color:white;
+    border-color:  #15803d;
+    font-size: 1rem;
+    font-weight: 600;
+}
+#getstartedparent
+{
+    margin-left: 1rem;
+}
+#heading1
+{
+    display: flex;
+}
+#blackheading
+{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 8rem;
+    margin-left: 21rem;
+}
+#greenheading
+{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color:  #15803d;
+    margin-top: 8rem;
+    margin-left: 1rem;
+}
+#heading2
+{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color:   grey;
+    margin-top: 1rem;
+}
+#subheading1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#subheading2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#downbtns
+{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+#startorganizing
+{
+    width: 12rem;
+    height: 2.7rem;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    background-color: #15803d;
+    color:white;
+    border-color:  #15803d;
+    font-size: 1rem;
+    font-weight: 600;
+}
+#heading3
+{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+#card1
+{
+    display: flex;
+    margin-bottom: 2rem;
+    margin-left: 3.5rem;
+}
+#card2
+{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maincard
+{
+    background-color: #dbede2;
+    border-radius: 0.5rem;
+    width: 40rem;
+    height:15rem;
+}
+.maincard:hover
+{
+    cursor: pointer;
+}
+.subcard1
+{
+padding-left: 2rem;
+padding-right: 2rem;
+}
+#subcard2
+{
+padding-left: 2rem;
+padding-right: 2rem;
+}
+.image
+{
+    width: 6rem;
+    height: 6rem;
+    margin-top: 0.5rem ;
+    margin-left: 0.5rem;
+}
+.cardheading
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    margin-left: 1rem;
+}
+.cardsubheading
+{
+    font-weight: 500;
+    color: black;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+#mainheading3
+{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 10rem;
+}
+#mainsubheading3
+{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color:   grey;
+    margin-top: 1rem;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lastbtn
+{
+    width: 9rem;
+    height: 2.7rem;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    background-color: #15803d;
+    color:white;
+    border-color:  #15803d;
+    font-size: 1rem;
+    font-weight: 600;
+}
+#btn3
+{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+#footerparent
+{
+    width: 100%;
+    height: 9rem;
+    background-color: #dbede2;
+    margin-top: 5rem;
+}
+#fheading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: rgb(56, 55, 55);
+    padding-top: 5rem;
+}
+#backbtnandheading
+{
+    display: flex;
+}
+#backimg
+{
+    width:2.5rem;
+    height: 2.5rem;  
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+}
+#backheading
+{
+    font-weight: 900;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+#backbtn:hover{
+    cursor: pointer;
+}
+#backbtn
+{
+    width: 13rem;
+    height: 3.2rem;
+   border-radius: 1rem;  
+    display:flex ;  
+    background-color: white;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+#editprofilebtn:hover{
+    cursor: pointer;
+}
+#editprofilebtn
+{
+    border-radius: 1rem;  
+    display:flex ;  
+    background-color: white;
+    width: 9rem;
+    margin-left: 70rem;
+    margin-top: 1rem;
+}
+#setting
+{
+    height: 3rem;
+    width: 3rem;
+}
+#editheading
+{
+    font-weight: 900;
+    margin-top: 0.8rem;
+    margin-left: 0.3rem;
+}
+#mainprofileparent
+{
+    display: flex;
+}
+#userinternaldetailsparent
+{
+    height: 12rem;
+    width: 50rem;
+    margin-top: 3rem;
+    background-color: #88f0ae;
+    margin-left: 3rem;
+}
+#sidebarparent
+{
+    background-color: #88f0ae;
+    height: 100vh;
+    width: 20rem;
+    margin-top: 3rem;
+    margin-left:12rem ;
+    margin-bottom: 4rem;
+}
+#produtivitystatsparent
+{
+    height: 16rem;
+    width: 50rem;
+    margin-top: 1rem;
+    background-color: #88f0ae;
+    margin-left: 3rem;
+}
+#accountsettingsparent
+{
+    height: 16rem;
+    width: 50rem;
+    margin-top: 1rem;
+    background-color: #88f0ae;
+    margin-left: 3rem;
+}
+#userimageparent
+{
+    margin-top: 3rem;
+    margin-left: 4.7rem;
+    height: 11rem;
+    width: 11rem;
+    border-radius: 6rem;
+    background-color: rgb(126, 124, 124);
+}
+#nameuserprofile
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:1rem ;
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+#emailuserprofile
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+#taskscompletednumber
+{
+    font-size: 3rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+#taskscompletedheadingprofile
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 800;
+}
+#personalinfoheadingparent
+{
+    padding-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+#infosubheadparent
+{
+    margin-left: 1rem;
+    font-weight: 700;
+}
+#nameandemailheadparent
+{
+    display: flex;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+#emailinfo
+{
+    margin-left: 17rem;
+}
+#showemailandnameinfoparent
+{
+    display: flex;
+}
+#fullnameshow
+{
+    background-color: white;
+    border-color: black;
+    border-width: 2rem;
+    border-radius: 0.3rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    width: 21rem;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+#fullemailshow
+{
+    background-color: white;
+    border-color: black;
+    border-width: 2rem;
+    border-radius: 0.3rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    width: 21rem;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+#phead
+{
+    padding-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+#psubhead
+{
+    margin-left: 1rem;
+    font-weight: 700;
+}
+#pnumbersparent
+{
+    display: flex;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-left: 1rem;
+    margin-top: 2.5rem;
+}
+#totaltasksnumber
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+#completionratepercentageparent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+#subheadfornumbers
+{
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+#totaltasksheading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+#completionrateheading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+#accountsettingsheading
+{
+    padding-top: 1rem;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+#accountsettingssubheading
+{
+    margin-left: 1rem;
+    font-weight: 700;
+}
+#changepassbtn
+{
+    display: flex;
+    background-color: white;
+    font-weight: 800;
+    width: 13rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+#changepassbtn:hover{
+    cursor : pointer;
+}
+#deleteaccountbtn:hover{
+    cursor : pointer;
+}
+#deleteaccountbtn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    font-weight: 800;
+    width: 13rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    height: 2rem;
+}
+#emailimg
+{
+    height: 2rem;
+    height: 2rem;
+    background-color: white;
+}
+#changepassheading
+{
+    margin-left: 1.5rem;
+    margin-top: 0.3rem;
+}

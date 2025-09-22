@@ -1,0 +1,600 @@
+
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+#topbarparent
+{
+    background-color: #c1f4d4;
+    display: flex;
+}
+#topbar
+{
+    margin-top: 0.5rem;
+    display: flex;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+#logoandheading
+{
+    margin-left: 9rem;
+    font-size:3rem;
+    font-weight: 700;
+    display: flex;
+}
+#reallogo
+{
+    height:3rem;
+    width: 3rem;
+}
+#logo
+{
+   margin-right: 0.5rem; 
+   margin-top: 0.7rem;
+}
+#btns
+{
+    display: flex;
+    margin-left: 47rem;
+    margin-top: 1rem;
+}
+#loginbtn
+{
+    width: 5rem;
+    height: 2.7rem;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    color:black;
+    border-color:  grey;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.getstartedbtn:hover
+{
+    background-color:#15803d;
+    cursor: pointer;
+}
+.getstartedbtnh:hover{
+    cursor: pointer;
+}
+.getstartedbtnh
+{
+    width: 7.5rem;
+    height: 2.7rem;
+    background-color: red;
+    border-radius: 0.5rem;
+    color:white;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.getstartedbtn
+{
+    width: 7.5rem;
+    height: 2.7rem;
+    background-color: black;
+    border-radius: 0.5rem;
+    color:white;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+}
+#logoutparent
+{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+#getstartedparent
+{
+    margin-top: 1rem;
+    margin-left: 45rem;
+}
+#profile
+{
+    margin-left: 0.3rem;
+    padding-top: -0.3rem;
+}
+#profilehead
+{
+    margin-top: 0.7rem;
+    margin-left: 0.3rem;
+}
+#heading1
+{
+    display: flex;
+}
+#blackheading
+{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 8rem;
+    margin-left: 21rem;
+}
+#greenheading
+{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color:  #15803d;
+    margin-top: 8rem;
+    margin-left: 1rem;
+}
+#heading2
+{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color:   grey;
+    margin-top: 1rem;
+}
+#subheading1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#subheading2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#downbtns
+{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+#startorganizing
+{
+    width: 12rem;
+    height: 2.7rem;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    background-color: #15803d;
+    color:white;
+    border-color:  #15803d;
+    font-size: 1rem;
+    font-weight: 600;
+}
+#heading3
+{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+#card1
+{
+    display: flex;
+    margin-bottom: 2rem;
+    margin-left: 3.5rem;
+}
+#card2
+{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maincard
+{
+    background-color: #dbede2;
+    border-radius: 0.5rem;
+    width: 40rem;
+    height:15rem;
+}
+.maincard:hover
+{
+    cursor: pointer;
+}
+.subcard1
+{
+padding-left: 2rem;
+padding-right: 2rem;
+}
+#subcard2
+{
+padding-left: 2rem;
+padding-right: 2rem;
+}
+.image
+{
+    width: 6rem;
+    height: 6rem;
+    margin-top: 0.5rem ;
+    margin-left: 0.5rem;
+}
+.cardheading
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    margin-left: 1rem;
+}
+.cardsubheading
+{
+    font-weight: 500;
+    color: black;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+#mainheading3
+{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 10rem;
+}
+#mainsubheading3
+{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color:   grey;
+    margin-top: 1rem;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lastbtn
+{
+    width: 9rem;
+    height: 2.7rem;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    background-color: #15803d;
+    color:white;
+    border-color:  #15803d;
+    font-size: 1rem;
+    font-weight: 600;
+}
+#btn3
+{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+#footerparent
+{
+    width: 100%;
+    height: 9rem;
+    background-color: #dbede2;
+    margin-top: 5rem;
+}
+#fheading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: rgb(56, 55, 55);
+    padding-top: 5rem;
+}
+#cardline1
+{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.cardtotaltasks
+{
+    display: flex;
+    background-color: #39ea7a;
+    height:10rem;
+    width: 17rem;
+    border-radius: 1rem;
+}
+.cardcompletedtasks
+{
+     display: flex;
+     background-color: rgb(255, 213, 0);
+    height:10rem;
+    width: 17rem;
+    border-radius: 1rem;
+}
+.cardprogress
+{
+    display: flex;
+     background-color: #39ea7a;
+    height:10rem;
+    width: 17rem;
+    border-radius: 1rem;
+}
+.totaltasknumber
+{
+    display: flex;
+    font-size: 3rem;
+    margin-left:2rem;
+    font-weight: 900;
+}
+.totalcompletedtasknumber
+{
+    display: flex;
+    font-size: 3rem;
+    margin-left:2rem;
+    font-weight: 900;
+}
+.num{
+    font-size: 3rem;
+    margin-left:2rem;
+    font-weight: 900;
+}
+#percent
+{
+    font-weight: 900;
+    font-size: 3rem;
+}
+.totalnumber
+{
+    display: flex;
+}
+.headtotalnumber
+{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-weight: 600;
+    color: black;
+}
+.headtotalcompletednumber
+{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-weight: 600;
+}
+.totalnumberlogoparent1
+{
+    margin-top: 2.3rem;
+    margin-left: 4rem;
+}
+.totalnumberlogoparent2
+{
+    margin-top: 2.3rem;
+    margin-left: 3.6rem;
+}
+.totalnumberlogoparent3
+{
+    margin-top: 2.3rem;
+    margin-left: 3.5rem;
+}
+.totalnumberlogo1{
+    height: 5rem;
+    width: 5rem;
+}
+.totalnumberlogo2
+{
+    height: 4.5rem;
+    width: 4.5rem;
+}
+.totalnumberlogo3
+{
+    margin-left: -2rem;
+    height: 4.5rem;
+    width: 4.5rem;
+}
+.cardcompletedtasks
+{
+    margin-left: 4rem;
+}
+#cardline2
+{
+    background-color:#39ea7a;
+    width: 59rem;
+    height: 10rem;
+    margin-left: 18.5rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+#addnewtaskhead
+{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-top: 1rem;
+}
+#subaddnewtaskhead
+{
+    margin-left: 1rem;
+    display: flex;
+}
+#inputparent
+{
+    margin-top:1rem;
+    margin-left: 1rem;
+}
+#inputandbtn
+{
+    display: flex;
+}
+#taskinput
+{
+    width: 46rem;
+    height: 3rem;
+    border-radius: 1rem;
+    background-color: #aad6ba;
+    padding: 1rem;
+    font-size: 1rem;
+}
+#plusimg
+{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+}
+#tasksubmitbtn:hover{
+    cursor: pointer;
+}
+#tasksubmitbtn
+{
+    margin-left: 1rem;
+    height:3rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    width: 10rem;
+    font-size: 1.1rem;
+    font-weight: 800;
+    display: flex;
+    background-color:rgb(255, 213, 0);
+}
+#addtaskhead
+{
+    margin-left: 0.2rem;
+    margin-top: 0.6rem;
+}
+#calender:hover
+{
+    cursor: pointer;
+}
+#calender
+{
+    color: black;
+    background-color: rgb(255, 213, 0);
+    width: 9.5rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: 900;
+    padding-left: 0.5rem;
+    border-radius: 1rem;
+    padding-right: 0.5rem;
+    margin-top: -1rem;
+    margin-left: 28.5rem;
+}
+#cardline3
+{
+    background-color:#39ea7a;
+    width: 59rem;
+    margin-left: 18.5rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+#todohead
+{
+    margin-left: 1rem;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+#foundtasksparent
+{
+    display: flex;
+}
+#foundtasksparent
+{
+    margin-top: 0.3rem;
+}
+#numberoftasksfound
+{
+   font-weight: 900;
+   margin-right: 0.3rem;
+    margin-left: 1rem;
+}
+#tasksfoundhead
+{
+    font-weight: 500;
+}
+.maindata
+{
+    border-radius: 1rem;
+    border-color: black;
+    background-color: rgb(250, 230, 128);
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    height: 7rem;
+    width :57rem;
+}
+.rowdata
+{
+    display: flex;
+}
+.titledata
+{
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.priorityd
+{
+    background-color: red;
+    color: white;
+    font-weight: 800;
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+    margin-top: 0.8rem;
+}
+.priorityd:hover{
+    cursor: pointer;
+}
+.didit:hover{
+    cursor: pointer;
+}
+.didit
+{
+    background-color:#038c35;
+    color: white;
+    font-weight: 800;
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+    
+}
+.bin{
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(250, 230, 128);
+    border: none;
+}
+.delete:hover{
+    cursor: pointer;
+}
+.delete
+{
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+}
+.dateandimage
+{
+    display: flex;
+}
+.imgdate
+{
+    height: 2rem;
+    width: 2rem;
+}
+.image
+{
+    margin-left: 2.8rem;
+    margin-top: -0.5rem;
+}
+.date{
+    font-weight: 900;
+    margin-left: -3.5rem;
+}
+.id
+{
+    display: none;
+}

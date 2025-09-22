@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="topbarparent">
+        <div id="topbar">
+            <div id="logoandheading">
+            <div id="logo"><img src="../black.png" alt="" id="reallogo"></div>
+            <div id="heading">TaskFlow</div>
+        </div>
+        <div id="getstartedparent">
+             <button class="getstartedbtn" onclick="profilego()"><img src="../prow.png" alt="" id="profile"> <div id="profilehead">Profile</div></button>
+        </div>
+        <div id="logoutparent">
+             <button class="getstartedbtnh" onclick="logout()"><div class="profilehead">Log Out</div></button>
+        </div>
+        </div>
+        </div>
+    </div>
+    <div id="cardline1">
+            <div class="cardtotaltasks">
+                <div class="headandtotalnumber">
+                    <div class="headtotalnumber">Total Tasks :</div>
+                    <div class="totaltasknumber"></div>
+                </div>
+                <div class="totalnumberlogoparent1">
+                    <img src="../tm.png" alt="" class="totalnumberlogo1">
+                </div>
+            </div>
+            <div class="cardcompletedtasks">
+                <div class="headandtotalnumber">
+                    <div class="headtotalnumber">Completed :</div>
+                    <div class="totalcompletedtasknumber">1</div>
+                </div>
+                <div class="totalnumberlogoparent2">
+                    <img src="../star.png" alt="" class="totalnumberlogo2">
+                </div>
+            </div>
+            <div class="cardcompletedtasks">
+                <div class="headandtotalnumber">
+                    <div class="headtotalcompletednumber">Progress :</div>
+                    <div class="totalnumber">
+                        <div class="num">25</div>
+                        <div id="percent">%</div>
+                    </div>
+                </div>
+                <div class="totalnumberlogoparent3">
+                    <img src="../clo.png" alt="" class="totalnumberlogo3">
+                </div>
+            </div>
+    </div>
+    <div id="cardline2">
+        <div id="addnewtaskhead">Add New Task : </div>
+        <div id="subaddnewtaskhead">
+            <div>What would you like to accomplish today?</div>
+            <div id="calenderparent"><input type="date" name="" id="calender"></div>
+        </div>
+        <div id="inputandbtn">
+            <div id="inputparent">
+                <input type="text" id="taskinput">
+            </div>
+            <div id="submitbtnparent">
+                <button id="tasksubmitbtn" onclick="settodo()"><img src="../plus.png" alt="" id="plusimg"><div id="addtaskhead"> Add Task </div></button>
+            </div>
+        </div>
+    </div>
+    <div id="cardline3">
+        <div id="taskparent">
+            <div id="todohead">Your Tasks :</div>
+            <div id="foundtasksparent">
+                <div id="numberoftasksfound">4</div>
+                <div id="tasksfoundhead"> Tasks Found</div>
+            </div>
+        </div>
+    </div>    
+    <script src="./index.js"></script>
+</body>
+</html>

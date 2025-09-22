@@ -1,0 +1,266 @@
+
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+#topbarparent
+{
+    background-color: #2bbb62;
+    display: flex;
+    background-color: rgba(240, 253, 244, 0.5);
+}
+#topbar
+{
+    margin-top: 0.5rem;
+    display: flex;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+#logoandheading
+{
+    margin-left: 9rem;
+    font-size:3rem;
+    font-weight: 700;
+    display: flex;
+}
+#reallogo
+{
+    height:3rem;
+    width: 3rem;
+}
+#logo
+{
+   margin-right: 0.5rem; 
+   margin-top: 0.7rem;
+}
+#btns
+{
+    display: flex;
+    margin-left: 47rem;
+    margin-top: 1rem;
+}
+#loginbtn:hover
+{
+    cursor: pointer;
+}
+.getstartedbtn:hover
+{
+    cursor: pointer;
+}
+#loginbtn
+{
+    width: 5rem;
+    height: 2.7rem;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    color:black;
+    border-color:  grey;
+    font-size: 1rem;
+    font-weight: 600;
+}
+#startorganizing:hover
+{
+    cursor: pointer;
+}
+.lastbtn:hover
+{
+    cursor: pointer;
+}
+.getstartedbtn
+{
+    width: 7.5rem;
+    height: 2.7rem;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    background-color: #15803d;
+    color:white;
+    border-color:  #15803d;
+    font-size: 1rem;
+    font-weight: 600;
+}
+#getstartedparent
+{
+    margin-left: 1rem;
+}
+#heading1
+{
+    display: flex;
+}
+#blackheading
+{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 8rem;
+    margin-left: 21rem;
+}
+#greenheading
+{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color:  #15803d;
+    margin-top: 8rem;
+    margin-left: 1rem;
+}
+#heading2
+{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color:   grey;
+    margin-top: 1rem;
+}
+#subheading1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#subheading2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#downbtns
+{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+#startorganizing
+{
+    width: 12rem;
+    height: 2.7rem;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    background-color: #15803d;
+    color:white;
+    border-color:  #15803d;
+    font-size: 1rem;
+    font-weight: 600;
+}
+#heading3
+{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+#card1
+{
+    display: flex;
+    margin-bottom: 2rem;
+    margin-left: 3.5rem;
+}
+#card2
+{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maincard
+{
+    background-color: #dbede2;
+    border-radius: 0.5rem;
+    width: 40rem;
+    height:15rem;
+}
+.maincard:hover
+{
+    cursor: pointer;
+}
+.subcard1
+{
+padding-left: 2rem;
+padding-right: 2rem;
+}
+#subcard2
+{
+padding-left: 2rem;
+padding-right: 2rem;
+}
+.image
+{
+    width: 6rem;
+    height: 6rem;
+    margin-top: 0.5rem ;
+    margin-left: 0.5rem;
+}
+.cardheading
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    margin-left: 1rem;
+}
+.cardsubheading
+{
+    font-weight: 500;
+    color: black;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+#mainheading3
+{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: black;
+    margin-top: 10rem;
+}
+#mainsubheading3
+{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color:   grey;
+    margin-top: 1rem;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lastbtn
+{
+    width: 9rem;
+    height: 2.7rem;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+    background-color: #15803d;
+    color:white;
+    border-color:  #15803d;
+    font-size: 1rem;
+    font-weight: 600;
+}
+#btn3
+{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+#footerparent
+{
+    width: 100%;
+    height: 9rem;
+    background-color: #dbede2;
+    margin-top: 5rem;
+}
+#fheading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: rgb(56, 55, 55);
+    padding-top: 5rem;
+}
